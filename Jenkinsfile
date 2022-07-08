@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("hello"){
           steps{
-                echo "this is not main"
+                echo "this is devlop branch"
             }
         }
      }
