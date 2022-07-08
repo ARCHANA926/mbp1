@@ -1,7 +1,10 @@
 pipeline{
     agent any
     stages{
-        stage("hello"){
+        stage("main1"){
+            when {
+                branch("develop")
+            }
   steps{
     echo "this is main branch"
        }
