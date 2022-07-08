@@ -6,7 +6,7 @@ when{
   branch("develop")
   }
   steps{
-    echo "this is not main branch"
+    echo "this is not main"
     }
    }
   }
