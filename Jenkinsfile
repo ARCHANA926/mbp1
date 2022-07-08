@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-    stage("main")
+    stage("hello")
 when{
   branch("develop")
   }
