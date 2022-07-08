@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage("hello"){
+        stage("testB"){
           steps{
-                echo "this is devlop branch"
+                echo "this is test branch"
             }
         }
      }
